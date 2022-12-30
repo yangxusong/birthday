@@ -90,6 +90,12 @@
 <div class="cs">
     <img src="107461648601362888.jpg" id="logo">
 </div>
+<audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
+ 
+    src="assets/hdb.mp3">
+ 
+ 
+</audio>
 <canvas class="canvas" width="1820" height="905"></canvas>
 <p class="text" style="color: #ed3073;">
     已经认识你
@@ -122,7 +128,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //想说的话
-            S.UI.simulate("高总|生日快乐哟|#countdown 3|#rectangle 15x15|#circle 12 |#time");
+            S.UI.simulate("高总|生快哟|#countdown 3|#rectangle 5x5|#circle 12 |#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
