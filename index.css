@@ -57,7 +57,7 @@ body{
 .centent {
 	width: 100%;
 	height: 100vh;
-	background: url(img/body.jpg) no-repeat center;
+	background: url(body.jpg) no-repeat center;
 	background-size: cover;
 	position: fixed;
 	overflow: hidden;
